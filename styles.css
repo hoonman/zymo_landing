@@ -1,0 +1,139 @@
+
+/* Briefly about this file: This file is the CSS stylesheet that is used to style the index.html */
+
+body, html {
+    height:100%;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight:500;
+}
+#page2 {
+    background-color: rgb(233, 233, 233);
+    
+    background-clip: padding-box;
+    box-shadow: 0 0 0 13px rgb(233, 233, 233);
+    
+    margin:0;
+    padding:0;
+
+}
+
+#bannerDiv {
+    display: block;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+#banner {
+    height:100%;
+    width: 100%;
+    background-position: center;
+}
+
+#header1 {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #00843D;
+    font-weight: 900;
+}
+
+#iconDiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+.biggerP2 {
+    text-align:center;
+    font-size: 1.3rem;
+
+}
+
+.biggerP {
+    text-align:center;
+    font-size: 1.3rem;
+    margin-top: -13px;
+
+}
+
+.icons {
+    flex: 0 0 auto;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.buttons {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+
+    vertical-align: middle;
+    font-size: 1.3rem; 
+    border: none;
+    background-color: #00843D;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 2%
+}
+
+.buttonDiv {
+    text-align: center;
+
+}
+
+#page2 {
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+
+.paragraph1 {
+    text-align: justify;
+    margin: 5%;
+    
+}
+
+.header2 {
+    text-align: center;
+    margin-top:5%;
+
+}
+
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+    margin-right: 27%;
+    margin-left: 27%;
+}
+
+.names{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.textareaForm {
+    border-radius: 5px;
+}
+
+#addText {
+    min-height: 200px;
+}
+
+.fieldText {
+    font-weight: 600;
+}
+
