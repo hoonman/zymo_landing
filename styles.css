@@ -30,6 +30,7 @@ body, html {
     height:100%;
     width: 100%;
     background-position: center;
+    background-size: cover;
 }
 
 #header1 {
@@ -43,7 +44,7 @@ body, html {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:100%;
+    flex-direction: row;
 }
 .biggerP2 {
     text-align:center;
@@ -137,3 +138,16 @@ body, html {
     font-weight: 600;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    #iconDiv, .flex1, .flex2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
